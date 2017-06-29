@@ -37,9 +37,7 @@ body>div {
 
 #logo>img {
   padding-bottom: 1em;
-}
-
-.main_navigation {}
+} 
 
 .main_navigation>a {
   text-decoration: none;
@@ -53,62 +51,73 @@ body>div {
 #page_content {
   padding: 1.5em;
 }
+
 #page_content>section {
   border-bottom: solid #dddddd .2em;
   padding-bottom: 2.5rem;
 }
-h2, h3{
+
+h2, h3 {
   color: #1fabe5;
 }
 
 ul {
   padding: 0 1.25em;
 }
+
 li {
   font-weight: bold;
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
   max-width: 900px;
 }
-thead > tr > td {
+
+thead>tr>td {
   background-color: #1fabe5;
   color: white;
   border-color: #046c97;
 }
 
- td {
-   border: solid #1fabe5 1px;
-   padding: .75em;
- }
+td {
+  border: solid #1fabe5 1px;
+  padding: .75em;
+}
+
 td>img {
   height: 50px;
 }
- form {
-   background-color: #eee;
-   border-radius: .5em;
-   padding: 1.5em;
- }
- .name {
-   background-color: #ff8523;
-   border-radius: .5em;
-   padding: 1em;
-   color: white;
-   font-weight: bold;
- }
-#first_name,#last_name {
+
+form {
+  background-color: #eee;
+  border-radius: .5em;
+  padding: 1.5em;
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: .5em;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+#first_name, #last_name {
   height: 2.5em;
   margin-right: 2em;
   width: 30%
 }
+
 .city_container {
   padding: 1.5em 0;
-
 }
+
 label {
   font-weight: bold;
 }
+
 textarea {
   border-color: #1fabe5;
   margin: 1em 0;
@@ -116,9 +125,6 @@ textarea {
   line-height: 1.6em;
   font-size: 1.1rem;
   padding: .5em;
-}
-.submit_container {
-
 }
 
 #submit_button {

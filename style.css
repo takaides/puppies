@@ -1,0 +1,132 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - #eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-image: url("img/bg.jpg");
+  line-height: 1.6em;
+  display: flex;
+}
+
+body>div {
+  /*height: 90%;*/
+  background-color: white;
+  border: solid #ffd24a 2px;
+  border-radius: .3em;
+  align-self: center;
+  min-width: 805px;
+  margin: 5px 10% 5%;
+}
+
+#site_header {
+  background-color: #ff8523;
+  padding: 1.5rem;
+}
+
+#logo>img {
+  padding-bottom: 1em;
+}
+
+.main_navigation {}
+
+.main_navigation>a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: .5em 1.25em;
+  border: solid white 1px;
+  border-radius: .5em;
+}
+
+#page_content {
+  padding: 1.5em;
+}
+#page_content>section {
+  border-bottom: solid #dddddd .2em;
+  padding-bottom: 2.5rem;
+}
+h2, h3{
+  color: #1fabe5;
+}
+
+ul {
+  padding: 0 1.25em;
+}
+li {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+}
+thead > tr > td {
+  background-color: #1fabe5;
+  color: white;
+  border-color: #046c97;
+}
+
+ td {
+   border: solid #1fabe5 1px;
+   padding: .75em;
+ }
+td>img {
+  height: 50px;
+}
+ form {
+   background-color: #eee;
+   border-radius: .5em;
+   padding: 1.5em;
+ }
+ .name {
+   background-color: #ff8523;
+   border-radius: .5em;
+   padding: 1em;
+   color: white;
+   font-weight: bold;
+ }
+#first_name,#last_name {
+  height: 2.5em;
+  margin-right: 2em;
+  width: 30%
+}
+.city_container {
+  padding: 1.5em 0;
+
+}
+label {
+  font-weight: bold;
+}
+textarea {
+  border-color: #1fabe5;
+  margin: 1em 0;
+  width: 100%;
+  line-height: 1.6em;
+  font-size: 1.1rem;
+  padding: .5em;
+}
+.submit_container {
+
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  color: white;
+  padding: 1.2em 1.5em;
+  border-radius: .5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-style: none;
+}
